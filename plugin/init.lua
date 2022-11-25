@@ -7,7 +7,7 @@ local M = {}
 
 M.rails = require('rails')
 
-if vim.g.roron_autos == true then
+if vim.g.roron_autos ~= false then
   M.autos = require('autocmds')
 end
 
